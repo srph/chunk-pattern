@@ -14,7 +14,7 @@ export default function chunkPattern(
   let patternIndex: number = 0
   let patternCount: number = 0
 
-  array.forEach((item, i) => {
+  array.forEach((item: any, i: number) => {
     if (patternCount === 0) {
       result.push([])
 
