@@ -48,7 +48,7 @@ chunkPattern(array: Array<mixed>, pattern: Array<number>): Array<Array<mixed>>
 - `pattern` is the sequence in which you'd like your array to be chunked.
 
 ### Contributing
-```
+```bash
 # Run tests
 npm run test
 
