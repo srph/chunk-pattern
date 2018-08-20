@@ -17,10 +17,12 @@ export default function chunkPattern(
   array.forEach((item, i) => {
     if (patternCount === 0) {
       result.push([])
-      // We won't increment pattern index on our fist iteration.
+
       if (i > 0) {
+        // We won't increment pattern index on our fist iteration.
         patternIndex = (patternIndex + 1) % pattern.length
       }
+      
       patternCount = pattern[patternIndex]
     }
 
