@@ -19,7 +19,7 @@ export default function chunkPattern(
       result.push([])
       // We won't increment pattern index on our fist iteration.
       if (i > 0) {
-        patternIndex = maxReset(patternIndex + 1, pattern.length - 1)
+        patternIndex = (patternIndex + 1) % pattern.length
       }
       patternCount = pattern[patternIndex]
     }
@@ -30,16 +30,4 @@ export default function chunkPattern(
   })
 
   return result
-}
-
-/**
- * If value exceeds max, assigns value back to 0.
- * @return {number}
- */
-function maxReset(value: number, max: number): number {
-  if (value > max) {
-    return 0
-  }
-
-  return value
 }
