@@ -46,3 +46,18 @@ chunkPattern(array: Array<mixed>, pattern: Array<number>): Array<Array<mixed>>
 #### Parameters
 - `array` is the array to be chunked in given `pattern`.
 - `pattern` is the sequence in which you'd like your array to be chunked.
+
+### Contributing
+```
+# Run tests
+npm run test
+
+# Create dist build
+npm run build
+
+# Format with Prettier
+npm run fmt
+
+# Run flow
+npm run flow
+```
