@@ -1,0 +1,23 @@
+{
+  "name": "chunk-pattern",
+  "version": "1.0.0",
+  "description": "Chunk an array in a specific pattern",
+  "main": "index.js",
+  "scripts": {
+    "build": "microbundle build -i index.js -o dist --name chunkPattern --sourcemap --strict",
+    "flow": "flow",
+    "test": "jest *.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.79.1",
+    "jest": "^23.5.0",
+    "microbundle": "^0.6.0",
+    "prettier": "^1.14.2"
+  }
+}
