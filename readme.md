@@ -6,7 +6,7 @@ Chunk an array in a specific pattern.
 ```js
 import chunkPattern from 'chunk-pattern'
 
-const options = [
+const flavors = [
   'Chocolate',
   'Strawberry',
   'Green Tea',
@@ -21,7 +21,7 @@ const options = [
 ]
 
 console.log(
-  chunkPattern(options, [2, 3])
+  chunkPattern(flavors, [2, 3])
 )
 
 /*
