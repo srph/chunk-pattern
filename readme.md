@@ -39,7 +39,7 @@ npm i chunk-pattern --save
 ```
 
 ### API
-```
+```js
 chunkPattern(array: Array<mixed>, pattern: Array<number>): Array<Array<mixed>>
 ```
 
