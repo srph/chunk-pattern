@@ -1,5 +1,6 @@
-## chunk-pattern
-Chunk an array in a specific pattern
+## chunk-pattern [![NPM version](https://img.shields.io/npm/v/chunk-pattern.svg?style=flat-square)](https://www.npmjs.com/package/chunk-pattern) [![Build status for master](https://img.shields.io/travis/srph/chunk-pattern/master.svg?style=flat-square)](https://travis-ci.org/srph/chunk-pattern)
+
+Chunk an array in a specific pattern.
 
 ### Usage
 ```js
