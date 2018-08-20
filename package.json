@@ -5,6 +5,7 @@
   "main": "dist/chunk-pattern.js",
   "scripts": {
     "build": "microbundle build -i index.js -o dist --name chunkPattern --sourcemap --strict",
+    "fmt": "prettier *.js --write",
     "flow": "flow",
     "test": "jest *.spec.js"
   },
