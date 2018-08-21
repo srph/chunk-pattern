@@ -9,8 +9,7 @@ export default function chunkPattern(
   array: Array<mixed>,
   pattern: Array<number>
 ): Array<Array<mixed>> {
-  const result: Array<Array<mixed>> = []
-
+  const result: Array<Array<mixed>> = [[]]
   let patternIndex: number = 0
   let patternCount: number = pattern[0]
 
