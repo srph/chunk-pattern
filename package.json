@@ -1,6 +1,6 @@
 {
   "name": "chunk-pattern",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chunk an array in a specific pattern",
   "main": "dist/chunk-pattern.js",
   "scripts": {
