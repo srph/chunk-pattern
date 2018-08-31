@@ -3,6 +3,8 @@
 Chunk an array in a specific pattern.
 
 ### Use-case
+If you're building a reusable component that accepted options that get chunked into multiple rows with varying column count, you're in the right place.
+
 ![Use Case](use-case.png)
 
 ### Usage
