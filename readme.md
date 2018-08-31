@@ -2,6 +2,9 @@
 
 Chunk an array in a specific pattern.
 
+### Use-case
+![Use Case](use-case.png)
+
 ### Usage
 ```js
 import chunkPattern from 'chunk-pattern'
