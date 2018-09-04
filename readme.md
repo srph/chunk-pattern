@@ -7,6 +7,8 @@ If you're building a reusable component that accepted options that get chunked i
 
 ![Use Case](use-case.png)
 
+<sup><em>Designed by [Kirby Borromeo](https://dribbble.com/kbyborromeo)</em></sup>
+
 ### Usage
 ```js
 import chunkPattern from 'chunk-pattern'
